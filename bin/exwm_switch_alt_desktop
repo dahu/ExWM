@@ -1,0 +1,4 @@
+#!/bin/sh
+# exwm_switch_alt_desktop
+
+exwm_switch_desktop `exwm_get_alt_desktop`

@@ -1,0 +1,5 @@
+#!/bin/sh
+# exwm_switch_desktop ID
+
+exwm_set_alt_desktop
+wmctrl -s $1

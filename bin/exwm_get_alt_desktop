@@ -1,0 +1,9 @@
+#!/bin/sh
+# exwm_get_alt_desktop
+
+altdesktopfile=/tmp/EXWM_ALT_DESKTOP
+if [ -f $altdesktopfile ]; then
+  cat $altdesktopfile
+else
+  echo -en 0
+fi
